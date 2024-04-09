@@ -2,6 +2,11 @@
 # Desarrollo de Aplicaciones Web
 ## Introducción al Asíncronismo
 
+## Nombre
+- Juan José Rodríguez
+
+## Link pagina desplegada vercel
+[link](https://react-101-juan-jose-rodriguez-f.vercel.app/)
 
 ## Funcionalidades
 
