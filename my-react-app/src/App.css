@@ -28,7 +28,10 @@
   flex-wrap: wrap;
 
   .logo{
-    width: 180px;
+    width: 190px;
+    height: 140px;
+    background-image: url('assets/logo.png');
+    background-size: cover; /* ajusta el tamaño de la imagen para cubrir todo el contenedor */
   }
 
   form {

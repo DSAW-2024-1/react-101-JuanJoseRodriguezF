@@ -70,7 +70,7 @@ const App = () => {
             <input type="text" className="searchInput" placeholder="Escriba el personaje a buscar" />
           </div>
           <div className='enColumnas'>
-            <img className="logo" src='./src/assets/logo.png' alt="Logo"></img>
+            <img className="logo"></img>
           </div>
           <div className='enColumnas'>
             <button className="cargarMas" type='button' onClick={accionClick}>Nuevo Personaje!!</button>
