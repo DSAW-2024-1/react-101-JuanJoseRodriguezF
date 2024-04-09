@@ -1,0 +1,114 @@
+.app {
+  background-image: url("assets/fondo.jpg");
+  width: 100vw; /* Utilizamos el 100% del ancho de la ventana */
+  height: 100vh; /* Utilizamos el 100% de la altura de la ventana */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.general {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: 2rem;
+  padding: 1rem;
+  width: 78%;
+}
+
+.superior {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  .logo{
+    width: 180px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 94%;
+    height: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color:orange;
+    border: 0.2rem solid black;
+  }
+
+  .enColumnas {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  input {
+    padding: 0.2rem;
+    width: 13rem;
+    height: 50px;
+    border-radius: 0.8rem;
+    border: 0.18rem solid black;
+    box-sizing: border-box; 
+    color: black;
+  }
+
+  button {
+    padding: 0.2rem;
+    width: 13rem;
+    height: 50px;
+    border-radius: 0.8rem;
+    border: 0.18rem solid black;
+    box-sizing: border-box; 
+    color: black;
+    background-color:rgb(165, 105, 40);
+  }
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;  
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 0.2rem solid black;
+  background-color:orange;
+  
+  .imagen-c {
+    height: 100%;
+    width: auto;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    border: 0.2rem solid black;
+  }
+
+  img {
+    height: 15rem;
+    width: auto;
+  }
+  
+  .texto-c {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  p {
+    font-weight: 900;
+    color:rgb(195, 29, 29);
+  }
+}
